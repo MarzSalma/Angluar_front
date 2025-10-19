@@ -11,7 +11,7 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class JoueurService {
-  apiURL: string = 'http://localhost:8089/jouoeurs/api/all';
+  apiURL: string = 'http://localhost:8089/joueurs/api/all';
 
   joueurs!: Joueur[]; //un tableau de joueurs
   //categories : Categorie[];
